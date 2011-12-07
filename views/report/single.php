@@ -53,9 +53,8 @@ foreach ($data as $info) {
 		echo XHProf_UI\Utils::td_pct($info['excl_'.$metric], $ui->totals[0][$metric], ($ui->sort == 'excl_' . $metric));
 	}
 ?></tr>
-<?php 
+<?php
 }
 ?>
 			</tbody>
 		</table>
-<?php
